@@ -1,3 +1,6 @@
 Aqui esta todo lo desarrollado del sistema, aun no lo he anexado al home.php, sino que hay que todavia navegador por los directorios, lo ultimo que realize, 
 es una funcion para cambiar el avatar del usuario, que es el "avatar/index.php", y estoy haciendo el "user.php", donde se cambiara la opciones de la cuenta.
 Cada carpeta contiene su "index.php", donde se ingresa para la ver la funcion, aun no ta todo anexado, pero ya las opciones creadas son funcionales.
+
+
+La base de datos es el "db_primary.sql"
