@@ -1,3 +1,5 @@
+<?php include ('avatar\pre_app.php'); ?>
+
 <!doctype html>
 <html>
 <head>
@@ -9,8 +11,8 @@
 
 <body>
     <div class="w-screen mx-auto" id="header_general">
-        <div class="container w-20 h-20 absolute top-0 right-0" id="user_option_div">
-        <button onclick="ocultar_lateral_menu()" id="user_option"><img class="object-contain hover:border-gray-200" src="recursos/user-icon.png" id="user-icon">
+        <div class="container bg-white w-20 h-20 absolute rounded-full top-0 right-0" id="user_option_div">
+        <button onclick="ocultar_lateral_menu()" id="user_option"><img class="object-fill w-full h-full rounded-full hover:border-gray-200" src="<?php echo $avatar_img; ?>" id="user-icon">
         </div>
         <div class="bg-gray-500 w-full center" id="header_superior">
         <div id="no_texto_header_superior"></div>
