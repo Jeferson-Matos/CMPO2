@@ -14,6 +14,7 @@ if ($_SESSION['tipo_usu_val'] == 1){
 
 if ($_SESSION['tipo_usu_val'] < 1){
 header('location: index.php');}
+include ('avatar\pre_app.php');
 
 ?>
 

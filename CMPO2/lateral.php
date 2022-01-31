@@ -1,3 +1,5 @@
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
 
 
@@ -8,8 +10,8 @@
 </button>
 <div class="h-fit bg-blue-500 grid place-items-center" id="fill">
 
-<div class="container w-20 h-20 content-center" id="user_option_div">
-<a href="#" id="user_option"><img class="object-contain hover:border-gray-200" src="recursos/user-icon.png" id="user-icon"></a>
+<div class="container w-20 h-20 content-center rounded-full" id="user_option_div">
+<a href="#" id="user_option"><img class="object-fill w-full h-full rounded-full hover:border-gray-200" src="<?php echo $avatar_img; ?>" id="user-icon"></a>
 </div>
 <h1 class="text-center" id="header_text"><?php echo $_SESSION['nick_usu']; ?></h1>
 </div>
